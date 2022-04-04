@@ -1,5 +1,7 @@
 # -*- encoding: utf-8 -*-
 
+require 'date'
+
 Gem::Specification.new do |s|
   s.name              = 'delayed_job_mongo_mapper'
   s.summary           = "MongoMapper backend for delayed_job"
@@ -19,4 +21,3 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency      'tzinfo',       '~> 0.3.31'
   s.add_development_dependency  'rspec',        '>= 2.0'
 end
-
